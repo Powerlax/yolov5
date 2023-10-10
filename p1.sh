@@ -8,6 +8,7 @@ sudo apt install python3
 sudo apt install python3-pip
 cd yolov5
 pip3 install -r requirements.txt comet_ml
+pip3 install roboflow
 wget https://developer.download.nvidia.com/compute/cuda/12.2.2/local_installers/cuda-repo-debian11-12-2-local_12.2.2-535.104.05-1_amd64.deb
 sudo dpkg -i cuda-repo-debian11-12-2-local_12.2.2-535.104.05-1_amd64.deb
 sudo cp /var/cuda-repo-debian11-12-2-local/cuda-*-keyring.gpg /usr/share/keyrings/
