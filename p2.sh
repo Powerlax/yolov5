@@ -6,3 +6,4 @@ git add *
 gh auth login
 git commit -m "Upload model weights"
 git push
+cd ..
